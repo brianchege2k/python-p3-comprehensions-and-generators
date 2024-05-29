@@ -9,9 +9,9 @@ result = return_evens(input_list)
 print(result)  
 
 def make_exclamation(sentences):
-    exclamation_sentences = [sentence + "!" for sentence in sentences]
-    return exclamation_sentences
+    exclamation_sentence = [sentence + "!" for sentence in sentences]
+    return exclamation_sentence
 
-input_sentences = ["Hello", "I'm doing great", "Python is fun"]
+input_sentences = ["Hello World", "Python Programming"]
 result = make_exclamation(input_sentences)
 print(result)
